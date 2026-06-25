@@ -1,3 +1,16 @@
+# Not needed; Secrets
+*.tfstate.backup
+
+#  the local provider cache
+.terraform/
+
+# Local environmental variables
+.env
+
+# Python bytecode; Not needed
+__pycache__/
+*.pyc
+
 # Local .terraform directories
 .terraform/
 
